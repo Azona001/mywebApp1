@@ -4,18 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{title}}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=group" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=schedule" />
 </head>
 <body>
-  <div class="nav-container">
-    <div class="nav-header">
-      {{title}}
+  <div class="create=client">
+    <div class="client-form">
+    <!--  <form [formGroup]="clientUserProfile" (ngSubmit)="onSubmit()">
+        <label>
+          First Name:
+          <input type="text" size="32" formControlName="firstName" >
+        </label>
+        <label>
+          Last Name:
+          <input type="text" size="32" formControlName="lastName" >
+        </label>
+        <label>
+          Email:
+          <input type="text" formControlName="email">
+        </label>
+        <label>
+          Address:
+          <input type="text" formControlName="address" >
+        </label>
+
+      </form>
+    -->
+
+      
     </div>
-    <div class="nav-body">
-      <ul class="nav-list">
-        <li>Dashboard</li>
-        <li>Meeting schedules</li>
-        <li>Clients</li>
-      </ul>
+  </div>
+  <div class="nav-container">
+    <div class="nav-header-left">
+      <div>
+        <ul class="nav-image">
+          <li><img src="mywebApp\src\Images\home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" > 
+            <span class="material-symbols-outlined">
+            Dashboard
+            </span></li>
+        </ul>
+      </div>
+      <div class="nav-header-left">
+        <ul class="nav-image">
+          <img src="mywebApp\src\Images\group_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" >
+               <span class="material-symbols-outlined">
+            Clients
+          </span>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <img src="mywebApp\src\Images\schedule_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="" >
+               <span class="material-symbols-outlined">
+            schedule
+            </span>
+        </ul>
+      </div>
+  </div>
+
+
+    <div class="nav-header-right">
+        <div class="nav-body">
+          <ul class="nav-list">
+            <li>Dashboard</li>
+          </ul>
+        </div>
+        <div>
+            <ul class="nav-list">
+              <li>Clients</li>
+            </ul>
+        </div> 
+        <div>
+          <ul class="nav-list">
+            <li>Schedule</li>
+          </ul>
+        </div>
     </div>
 
   </div>
