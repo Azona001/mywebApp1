@@ -33,6 +33,7 @@ body{
     background-color: rgb(229, 229, 229);
     align-items: center;
     margin: 0px;
+    justify-content: flex-start;
 }
 .title {
     border: 10px;
@@ -161,14 +162,18 @@ h2 {
 
 .client-table{
     display:flex;
+    flex-direction: column;
     position: absolute;
     top:200px;
     left: 300px;
     width: 1050px;
     margin-left: -110px;
     margin-right: auto;
-    align-items: center;
 }
+.client-table > div {
+    justify-content: flex-start;
+}
+
 
 table{
     width: 1015px;
@@ -181,6 +186,7 @@ table{
     background-color: rgba(224, 223, 221, 1);
     margin-bottom: 10px;
     padding: 5px;
+   
 }
 th{
     width: 1200px;
@@ -208,8 +214,18 @@ td{
     font-size: 16px;
 }
 
-.material-icons-two-tone { font-size: 36px; }
+.material-icons-two-tone {
+     font-size: 36px; 
+    }
 
+.add-client{
+    width: 90px;
+    margin: 5px 16px;
+
+}
+.add-client > button{
+    cursor: pointer;
+}
     
     
     

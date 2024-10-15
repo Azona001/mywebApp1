@@ -1,0 +1,22 @@
+<div class="client-table">
+    <div class="add-client">
+      <a href=""><button type="image" src="/mywebApp/src/Images/person_add_24dp_E8EAED.png" width="100px" height="20px"> + Add Client</button></a>     
+    </div>
+    
+    <table>
+      <tr class="thead">
+        <th></th>
+        <th scope="col">Client Name</th>
+        <th scope="col">Company</th>
+        <th scope="col">Email</th>
+        <th scope="col">Contact number</th>
+      </tr>
+      <tr class="tbody" *ngFor=" let client of client">
+        <td class="tleft">{{client.id}}</td>
+        <td class="tleft">{{client.clientName}}</td>
+        <td class="tright">{{client.company}}</td>
+        <td class="tright">{{client.email}}</td>
+        <td>{{client.contactNumber}}</td>
+      </tr>
+    </table>
+  </div>
