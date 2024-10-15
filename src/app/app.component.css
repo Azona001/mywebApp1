@@ -1,5 +1,5 @@
 .nav-container{
-    width: 100px;
+    width: 80px;
     height: 700px;
     display : flex;
     flex-direction: column;
@@ -24,31 +24,41 @@
     word-spacing: 1.5;
     letter-spacing: 1.5;
     font-size: 24px;
-    color: rgb(135, 135, 135)
+    color: rgb(88, 88, 88)
 }
 
 
 
 .nav-header-left{
     width: 80px;
-    margin: 0px auto;
+    margin: 0px;
     align-items: center;
-    flex: 1;
+    float: left;
+   
+    
 
 }
 
 .icon , .nav-body{
     width:auto;
     height: 50px;
-    border-bottom: 1px solid rgb(105, 105, 105);
+    border-bottom: 1px solid rgba(105, 105, 105, 0.5);
+    border-top: 1px solid rgba(105, 105, 105, 0.2) ;
     margin: 10px;
+    
 } 
+.nav-body{
+    margin-left: 1px;
+}
 
 .nav-header-right{
-    width: 80px;
+    width: 168px;
     align-items: center;
-    margin: 0px auto;
     float: left;
+    position: relative;
+    left: 124px;
+    top: -195px;
+    
 }
 
 .nav-list, .nav-image{
@@ -62,4 +72,43 @@ li{
 .greeting{
     float:left;
     margin: 10px;
+    display: flex;
+    position: relative;
+    top: -700px;
+    left:1050px;
+    width: 200px;
+    justify-content: center;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+  span{
+    align-content: center;
+    background-color: aqua;
+    padding: 10px;
+    width: 80px;
+    
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
