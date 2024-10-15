@@ -1,3 +1,30 @@
+body{
+    background-color: white;
+}
+.topbar{
+    width: 1100px;
+    margin-left: 160px;
+    margin-top: 0px;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 2px 5px #6f6f6f77;
+    background-color: rgb(246, 248, 249);
+    
+}
+
+.page-title{
+    margin-left: 10px;
+    margin-right: 800px;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+
+}
+
 .nav-container{
     width: 160px;
     height: 1000px;
@@ -73,13 +100,11 @@ li{
 }
 
 .greeting{
-    float:left;
-    margin: 10px;
-    display: flex;
-    position: relative;
-    top: -1000px;
-    left:1050px;
-    width: 200px;
+    float:right;
+    margin-left: 50px;
+    padding: 5px;
+    ;
+   
     justify-content: center;
     
 }
@@ -137,20 +162,25 @@ h2 {
 .client-table{
     display:flex;
     position: absolute;
-    top:100px;
+    top:200px;
     left: 300px;
-    
-    width: 700px;
-    margin-left: auto;
+    width: 1050px;
+    margin-left: -110px;
     margin-right: auto;
-    justify-content: center;
+    align-items: center;
 }
 
+table{
+    width: 1015px;
+    border-collapse: collapse;
+    margin:5px auto;
+}
 .thead{
     justify-content: center;
     width: 800px;
     background-color: rgba(224, 223, 221, 1);
     margin-bottom: 10px;
+    padding: 5px;
 }
 th{
     width: 1200px;
@@ -159,7 +189,7 @@ th{
     font-size: 16px;
     font-weight: lighter;
     letter-spacing: 1px;
-    padding:5px;
+    padding:10px;
     color: rgb(109, 109, 109);
     margin-bottom: 10px;
 }
@@ -170,13 +200,16 @@ th{
 }
 
 td{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: light;
     font-size: 16px;
 }
+
+.material-icons-two-tone { font-size: 36px; }
+
     
     
     
